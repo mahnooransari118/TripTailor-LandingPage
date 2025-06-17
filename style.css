@@ -187,10 +187,12 @@ footer {
   flex-shrink: 0;
   margin-top: auto;
 }
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
+@media screen and (max-width: 600px) {
+  .card img {
+    height: auto;
+    max-height: 180px;
   }
+}
 
   .overlay {
     padding: 20px;
