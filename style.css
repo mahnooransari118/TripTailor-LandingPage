@@ -36,9 +36,11 @@ footer {
   text-align: center;
   color: white;
   flex-shrink: 0;
-  height: auto;
 }
-
+.bali-hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), 
+              url('bali2.jpg') center/cover no-repeat;
+  min-height: 100vh;
 .overlay {
   padding: 40px;
   background: rgba(0, 0, 0, 0.5);
