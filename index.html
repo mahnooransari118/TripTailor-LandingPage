@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripTailor - Explore the World</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<main>
+
+  <body>
+    <header class="hero">
+      <div class="overlay">
+        <h1>Explore the World with TripTailor</h1>
+        <p>Plan your next dream vacation with ease.</p>
+        <a href="#packages" class="btn">View Packages</a>
+      </div>
+    </header>
+
+    <section id="packages" class="packages">
+      <h2>Popular Destinations</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="paris.jfif" alt="Paris" />
+          <h3>Paris</h3>
+          <p>5 Nights / 6 Days</p>
+          <a href="paris.html" class="btn explore-btn">Explore Paris</a>
+        </div>
+
+        <div class="card">
+          <img src="dubai.jpg" alt="Dubai" />
+          <h3>Dubai</h3>
+          <p>4 Nights / 5 Days</p>
+          <a href="dubai.html" class="btn explore-btn">Explore Dubai</a>
+        </div>
+
+        <div class="card">
+          <img src="bali.jpg" alt="Bali" />
+          <h3>Bali</h3>
+          <p>7 Nights / 8 Days</p>
+          <a href="bali.html" class="btn explore-btn">Explore Bali</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to get travel deals in your inbox</p>
+      <form id="subscribe-form">
+        <input type="email" id="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="success-message"></p>
+    </section>
+</main>
+<footer>
+  <p>2025 TripTailor. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
